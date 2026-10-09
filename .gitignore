@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
 # If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
 # For useful gitignore templates see: https://github.com/github/gitignore
@@ -46,3 +47,31 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+=======
+# Node modules
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Local environment files
+.env
+.env.local
+
+# Salesforce DX temporary files
+.sfdx/
+.localdevserver/
+
+# Logs
+*.log
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Coverage reports
+coverage/
+
+# Build artifacts
+dist/
+>>>>>>> 805939717d0ac59044f8864af45e7f24d71cb3cf
