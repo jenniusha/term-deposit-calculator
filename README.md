@@ -35,24 +35,18 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a TermDepositScratc
 sfdx force:source:push -u MyDevOrg
 ```
 
-### 5. Assign Permission Set
-```bash
-sfdx force:user:permset:assign -n TermDepositCalculatorPermissions -u MyDevOrg
-```
-
-
-### 6. Run Apex Tests
+### 5. Run Apex Tests
 ```bash
 sfdx force:apex:test:run -u MyDevOrg --result-format human --code-coverage
 ```
 
 
-### 7. Open Org
+### 6. Open Org
 ```bash
 sfdx force:org:open -u MyDevOrg
 ```
 
-### 8. Add Component to Lightning Page
+### 7. Add Component to Lightning Page
 Navigate to Setup → Lightning App Builder
 
 Create or edit a Lightning page
